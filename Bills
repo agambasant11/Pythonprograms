@@ -1,0 +1,9 @@
+price = int(input("price"))
+Discount = int(input("disc"))
+Tax = int(input("rate"))
+
+print(f"{price:10}")
+print(f"{Discount:10}")
+print(f"{price - Discount:10}")
+print(f"{(price -Discount) * ((Tax) / 100):10}")
+print(f"{(price -Discount) * ((Tax) / 100) + (price - Discount):10}")
